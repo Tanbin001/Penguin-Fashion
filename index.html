@@ -11,7 +11,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
     <!--Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -31,8 +31,26 @@
 </head>
 
 <body>
+    <header class="lg:bg-yellow-100 md:bg-green-400">
+        <section class="container mx-auto py-5 lg:flex lg:items-center lg:justify-between md:grid md:grid-cols-1 md:gap-5">
+            <div class="ban-left space-y-4 lg:text-left md:text-center" style="margin: 0 auto;">
+                <h1 class="text-7xl font-bold uppercase lg:text-left md:mx-auto md:text-center"> 
+                    <span class="text-yellow-400">Be the Penguin</span>
+                    <br>
+                    <span class="text-grey-800">of winter</span>
+                </h1>
+                <p class="lg:w-2/3 lg:text-black md:w-full md:text-lg md:text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quas!</p>
+                <button type="button" class="space-y-1 lg:px-2 md:px-4 py-2 md:tracking-widest mt-10 lg:text-white md:text-yellow-200 font-bold lg:bg-green-400 md:bg-red-400 rounded-md transform hover:scale-130"><i class="fas fa-shopping-cart"></i> Success</button>
+            </div>
+            <div class="ban-right md:mx-auto">
+                <img src="images/model.png" alt="Model Girl">
+            </div>
+        </section>
+    </header>
 
+    <main>
 
+    </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
